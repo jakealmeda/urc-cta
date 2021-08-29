@@ -49,7 +49,7 @@ function urc_ctas() {
 
     $free_ebook_page = get_permalink( get_page_by_path( "free-ebook" ) );
 
-    ?><div class="module-cta"><?php
+    ?><div class="module cta"><?php
         
         if( $post && !in_array( $post->post_name, urc_cta_hidden() ) ) :
             echo '<div class="module cta-icon"><div class="module-wrap">
